@@ -59,4 +59,17 @@ while i > 0:
         ty2 = y[j+1][i]
         ty3 = y[j+1][i-1]
         print '<a xlink:href="#"><polygon class="teal" points="', tx1, ty1, tx2, ty2, tx3, ty3, tx4, ty4, '" /></a>'
+
+        
     i-=1
+
+for j in range(8):
+    tx1 = x[j][0]
+    tx4 = x[j][7]
+    tx2 = x[j+1][0]
+    tx3 = x[j+1][7]
+    ty1 = y[j][0]
+    ty4 = y[j][7]
+    ty2 = y[j+1][0]
+    ty3 = y[j+1][7]
+    print '<a xlink:href="#"><polygon class="teal" points="', tx1, ty1, tx2, ty2, tx3, ty3, tx4, ty4, '" /></a>'
