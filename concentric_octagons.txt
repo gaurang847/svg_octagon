@@ -1,0 +1,12 @@
+<svg viewbox="0 0 200 200">
+  
+  <a xlink:href="#"><polygon class="teal" points="166 118 118 166 49 166 0 118 0 49 49 0 118 0 166 49" /></a>
+  <a xlink:href="#"><polygon class="teal" points="157 114 114 157 53 157 9 114 9 53 53 9 114 9 157 53" /></a>
+  <a xlink:href="#"><polygon class="teal" points="148 110 110 148 56 148 18 110 18 56 56 18 110 18 148 56" /></a>
+  <a xlink:href="#"><polygon class="teal" points="139 106 106 139 60 139 28 106 28 60 60 28 106 28 139 60" /></a>
+  <a xlink:href="#"><polygon class="teal" points="129 102 102 129 64 129 37 102 37 64 64 37 102 37 129 64" /></a>
+  <a xlink:href="#"><polygon class="teal" points="120 98 98 120 68 120 46 98 46 68 68 46 98 46 120 68" /></a>
+  <a xlink:href="#"><polygon class="teal" points="111 95 95 111 72 111 55 95 55 72 72 55 95 55 111 72" /></a>
+  <a xlink:href="#"><polygon class="teal" points="102 91 91 102 75 102 65 91 65 75 75 65 91 65 102 75" /></a>
+  <a xlink:href="#"><polygon class="teal" points="92 87 87 92 79 92 74 87 74 79 79 74 87 74 92 79" /></a>
+</svg>
