@@ -46,15 +46,17 @@ y = numpy.array([  86.97599225,  92.38795325,   92.38795325,   86.97599225,   79
 x = x.reshape((10,8))
 y = y.reshape((10,8))
 
-i = 8
+i = 7
 
 while i > 0:
     for j in range(8):
         tx1 = x[j][i]
-        tx2 = x[j][i - 1]
-        tx3 = x[j+1][i]
-        tx4 = x[j+1][i-1]
+        tx4 = x[j][i - 1]
+        tx2 = x[j+1][i]
+        tx3 = x[j+1][i-1]
         ty1 = y[j][i]
-        ty2 = y[j][i - 1]
-        ty3 = y[j+1][i]
-        ty4 = y[j+1][i-1]
+        ty4 = y[j][i - 1]
+        ty2 = y[j+1][i]
+        ty3 = y[j+1][i-1]
+        print '<a xlink:href="#"><polygon class="teal" points="', tx1, ty1, tx2, ty2, tx3, ty3, tx4, ty4, '" /></a>'
+    i-=1
