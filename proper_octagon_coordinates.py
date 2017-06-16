@@ -6,7 +6,7 @@ n = 8
 nLevels = sides / (n + 1)
 org = - sides * cos(pi / 8)
 print nLevels
-x, y = numpy.zeros((sides, n)), numpy.zeros((sides, n))
+x, y = numpy.zeros((nLevels, n)), numpy.zeros((nLevels, n))
 j = 0
 
 def intOf(floatVal):
@@ -40,7 +40,11 @@ for i in range(sides/(n + 1), sides + 1, sides/(n + 1)):
 
     print intOf(xl - org), intOf(yl - org), intOf(xh - org), intOf(yh - org), intOf(-xh - org), intOf(yh - org), intOf(-xl - org), intOf(yl - org), intOf(-xl - org), intOf(-yl - org), intOf(-xh - org), intOf(-yh - org), intOf(xh - org), intOf(-yh - org), intOf(xl - org), intOf(-yl - org)
     j+=1
-
+print y
+while(j != 1):
+    for i in range(8):
+        #print '<a xlink:href="#"><polygon class="teal" points="', x[j][i], y[j][i], '" /></a>'
+        a = 7
 for i in range(nLevels):
     for j in range(n - 1):
         tx1, ty1 = intOf(x[i][j]), intOf(y[i][j])
