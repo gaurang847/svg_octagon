@@ -52,7 +52,7 @@ while i > 0:
         ty4 = y[j][i - 1]
         ty2 = y[j+1][i]
         ty3 = y[j+1][i-1]
-        print '<a xlink:href="#"><polygon class="slice-' + str(i) + '" points="', tx1, ty1, tx2, ty2, tx3, ty3, tx4, ty4, '" /></a>'
+        print '<a xlink:href="#"><polygon id = "segment' + str(i) + str(j) + '" onclick="colorChange(\'segment' + str(i) + str(j) + '\')" class="slice-' + str(i) + '" points="', tx1, ty1, tx2, ty2, tx3, ty3, tx4, ty4, '" /></a>'
 
         
     i-=1
@@ -66,4 +66,4 @@ for j in range(nLevels - 1):
     ty4 = y[j][7]
     ty2 = y[j+1][0]
     ty3 = y[j+1][7]
-    print '<a xlink:href="#"><polygon class="slice-0" points="', tx1, ty1, tx2, ty2, tx3, ty3, tx4, ty4, '" /></a>'
+    print '<a xlink:href="#"><polygon id = "segment' + str(0) + str(j) + '" onclick="colorChange(\'segment' + str(0) + str(j) + '\')" class="slice-0" points="', tx1, ty1, tx2, ty2, tx3, ty3, tx4, ty4, '" /></a>'
