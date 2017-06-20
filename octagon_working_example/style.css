@@ -26,3 +26,20 @@ body{
 	background-repeat: no-repeat;
 
 }
+#note {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+
+  position: absolute;
+  border-color: red;
+
+  top: 18%;
+  left: 12%;
+}
+
+div {
+	width: 60px;
+	height: 60px;
+}
