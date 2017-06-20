@@ -4,7 +4,7 @@ import numpy
 side = 121
 n = 8
 nLevels = 11
-org = - side * cos(pi / 8)
+org = - side * cos(pi / 8) - 80
 #print nLevels
 x, y = numpy.zeros((nLevels, n)), numpy.zeros((nLevels, n))
 j = 0
@@ -67,3 +67,25 @@ for j in range(nLevels - 1):
     ty2 = y[j+1][0]
     ty3 = y[j+1][7]
     print '<a xlink:href="#"><polygon id = "segment' + str(0) + str(j) + '" onclick="colorChange(\'segment' + str(0) + str(j) + '\')" class="slice-0" points="', tx1, ty1, tx2, ty2, tx3, ty3, tx4, ty4, '" /></a>'
+
+line = '<polyline points="'
+for i in xrange(8):
+    if i != 0:
+        line = line + " "
+    line = line + str(x[0][i]) + " " + str(y[0][i])
+line = line + " " + str(x[0][0]) + " " + str(y[0][0])
+line = line + '" />'
+print line
+
+line = '<polyline points="'
+for i in xrange(8):
+    if i != 0:
+        line = line + " "
+    line = line + str(x[10][i]) + " " + str(y[10][i])
+line = line + " " + str(x[10][0]) + " " + str(y[10][0])
+line = line  + '" />'
+print line
+
+#x[level][slice]
+for i in xrange(8):
+    print '<line x1="' + str(x[0][i]) + '" y1="' + str(y[0][i]) + '" x2="' + str(x[10][i]) + '" y2="' + str(y[10][i]) + '" />'

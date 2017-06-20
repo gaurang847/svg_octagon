@@ -1,11 +1,16 @@
 svg {
-	display:block;
-	width:40%; height:auto;
-	margin:0 auto;
+	display: block;
+	width: 40%; 
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	left: 15%;
+	top: 200px;
 }
 polygon {  
-	fill:#fff;
-	stroke:none; stroke-width:0.3;
+	fill: #fff;
+	stroke: none;
+	stroke-width: 0.3;
 	transition: fill .15s;
 }
 polyline{
@@ -15,19 +20,9 @@ polyline{
 line{
 	stroke: black;
 }
-/* a:hover .slice-0 { fill:teal; }
-a:hover .slice-1 { fill:pink; }
-a:hover .slice-2 { fill:blue; }
-a:hover .slice-3 { fill:red; }
-a:hover .slice-4 { fill:green; }
-a:hover .slice-5 { fill:orange; }
-a:hover .slice-6 { fill:yellow; }
-a:hover .slice-7 { fill:violet; } */
-/* a:focus .slice-0 { fill:teal; }
-a:focus .slice-1 { fill:pink; }
-a:focus .slice-2 { fill:blue; }
-a:focus .slice-3 { fill:red; }
-a:focus .slice-4 { fill:green; }
-a:focus .slice-5 { fill:orange; }
-a:focus .slice-6 { fill:yellow; }
-a:focus .slice-7 { fill:violet; } */
+body{
+	background: url("images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
