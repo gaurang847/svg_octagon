@@ -1,8 +1,8 @@
 ## CONTRIBUTING:
 
 1. Ensure that the code is properly spaced and does not look cramped.  
-a = b + c     ✓  
-a=b+c         ✗  
+`a = b + c`     ✓  
+`a=b+c`         ✗  
 
 2. Create a separate PR for each individual issue that you address.
 
