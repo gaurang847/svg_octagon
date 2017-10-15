@@ -18,7 +18,7 @@ And according to the score, he colored the segments.
 You can check it out [here][2]
 
 ### Contributing:
-Please read [this file][3] before contributing!
+Please read [this file][3] before contributing!  
 I humbly thank you for wanting to contribute to this project! :)
 
 [1]: https://jsfiddle.net/masquerade817/ok6wt54v/
