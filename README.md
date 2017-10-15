@@ -14,7 +14,7 @@ You can colour and decolour the segments by clicking on them.
 ### What can this be used for?
 One of my friends, who is a teacher, used it to provide evaluation and feedback to his students.  
 He used each slice to depict a particular parameter such as performance in tests, attentiveness in class, speaking skills, etc.
-And according to the score, he colored the segments.  
+And according to the score, he would color the segments.  
 You can check it out [here][2]
 
 ### Contributing:
