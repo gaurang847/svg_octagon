@@ -95,13 +95,5 @@
 	<line x1="195.99894119" y1="182.0" x2="238.09411875" y2="80.0" />
 	<line x1="201.952098291" y1="187.579905678" x2="303.578846868" y2="145.484728118" />
 
-	<image xlink:href="images/1.jpg" x="167" y="20" height="50px" width="50px"/>
-	<image xlink:href="images/2.png" x="167" y="310" height="50px" width="50px"/>
-	<image xlink:href="images/3.jpg" x="10" y="160" height="50px" width="50px"/>
-	<image xlink:href="images/4.jpg" x="310" y="160" height="50px" width="50px"/>
-	<image xlink:href="images/5.jpg" x="55" y="65" height="50px" width="50px"/>
-	<image xlink:href="images/6.jpg" x="275" y="65" height="50px" width="50px"/>
-	<image xlink:href="images/7_2.jpg" x="55" y="275" height="50px" width="50px"/>
-	<image xlink:href="images/8.jpg" x="275" y="275" height="50px" width="50px"/>
 
 </svg>
